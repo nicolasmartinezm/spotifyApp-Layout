@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPOTIFY CSS & HTML</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!------------FIRST MOCKUP ------------>
+    <div class="iphoneMockup first">
+      <div class="topBar">
+        <p class="time">14:09</p>
+        <img src="icons/data.png" />
+        <img src="icons/wifi.png" />
+        <img src="icons/battery.png" />
+      </div>
+      <!------------APP SCREEN ------------>
+      <div class="app">
+        <!------------TOP SEARCH BAR ------------>
+        <div class="searchBar">
+          <h1>Search</h1>
+          <img src="icons/camera.png" />
+          <div class="searchInput">
+            <img src="icons/search.png" />
+            <input type="search" placeholder="Artist, songs, or podcast" />
+          </div>
+        </div>
+        <!-- BROWSE GENRES -->
+        <div class="music">
+          <h3 class="chartTitle">Your top genres</h3>
+          <div class="charts latin"></div>
+          <div class="charts hiphop"></div>
+          <div class="charts pop"></div>
+          <div class="charts indie"></div>
+          <h3 class="chartTitle">Browse all</h3>
+          <div class="charts podcast"></div>
+          <div class="charts madefor"></div>
+          <div class="charts pop"></div>
+          <div class="charts latin"></div>
+        </div>
+        <!-- SONG PLAYING AT THE MOMENT -->
+        <nav class="bottomMenu">
+          <div class="reproduccion">
+            <img src="img/album.jpeg" class="albumPhoto" />
+            <div class="songName">
+              <p>The What - <span class="band">The Notorious BIG</span></p>
+              <p class="airplay">NICOLÁS'S MACBOOK PRO</p>
+            </div>
+            <img src="icons/airplay.png" />
+            <img src="icons/pause.png" />
+          </div>
+          <!--------APP MENU NAV  ----->
+          <div class="realMenu">
+            <div class="menuu">
+              <img src="icons/home.png" />
+              <p>Home</p>
+            </div>
+            <div class="menuu">
+              <img src="icons/seaarch.png" />
+              <p>Search</p>
+            </div>
+            <div class="menuu">
+              <img src="icons/playpause.png" />
+              <p>Your Library</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!------------SECOND MOCKUP ------------>
+    <div class="iphoneMockup second">
+      <div class="topBar">
+        <p class="time">14:09</p>
+        <img src="icons/data.png" />
+        <img src="icons/wifi.png" />
+        <img src="icons/battery.png" />
+      </div>
+      <!---------APP SCREEN -->
+      <div class="app">
+        <!-------BLUE CONTAINER LIKED SONGS -------->
+        <div class="blueWrap">
+          <img src="icons/backArrow.png" />
+          <h1>Liked Songs</h1>
+          <p>1,657 songs</p>
+          <div class="playBtns">
+            <div class="downArrow">
+              <img src="icons/downArrow.png" />
+            </div>
+            <div class="mainPlayBtn">
+              <img src="icons/playbtn.png" />
+            </div>
+            <div class="mainAleatorioBtn">
+              <img src="icons/aleatorio.png" />
+            </div>
+          </div>
+        </div>
+        <!-------LIKED SONGS ------->
+        <div class="likedSongs">
+          <button>Add songs</button>
+          <div class="song">
+            <img src="img/100pre.jpeg" />
+            <div class="likedSongName">
+              <p>Sunshine</p>
+              <div class="wrappper">
+                <div class="downloadSong">
+                  <img src="icons/downArrow.png" />
+                </div>
+                <p class="nameDos">Tom misch - Sunshine</p>
+              </div>
+            </div>
+            <div class="songIcons">
+              <img src="icons/like.png" />
+              <img src="icons/dots.png" />
+            </div>
+          </div>
+          <div class="song">
+            <img src="img/album.jpeg" />
+            <div class="likedSongName">
+              <p>Ready to Die</p>
+              <div class="wrappper">
+                <div class="downloadSong">
+                  <img src="icons/downArrow.png" />
+                </div>
+                <p class="nameDos">Notorious Big - Ready...</p>
+              </div>
+            </div>
+            <div class="songIcons">
+              <img src="icons/like.png" />
+              <img src="icons/dots.png" />
+            </div>
+          </div>
+          <div class="song">
+            <img src="img/crazydream.jpeg" />
+            <div class="likedSongName">
+              <p>Crazy Dream</p>
+              <div class="wrappper">
+                <div class="downloadSong">
+                  <img src="icons/downArrow.png" />
+                </div>
+                <p class="nameDos">Tom Misch - Crazy D...</p>
+              </div>
+            </div>
+            <div class="songIcons">
+              <img src="icons/like.png" />
+              <img src="icons/dots.png" />
+            </div>
+          </div>
+          <div class="song">
+            <img src="img/geography.png" />
+            <div class="likedSongName">
+              <p>Geography</p>
+              <div class="wrappper">
+                <div class="downloadSong">
+                  <img src="icons/downArrow.png" />
+                </div>
+                <p class="nameDos">Tom misch - Geogra...</p>
+              </div>
+            </div>
+            <div class="songIcons">
+              <img src="icons/like.png" />
+              <img src="icons/dots.png" />
+            </div>
+          </div>
+          <div class="song">
+            <img src="img/nose.png" />
+            <div class="likedSongName">
+              <p>Temón</p>
+              <div class="wrappper">
+                <div class="downloadSong">
+                  <img src="icons/downArrow.png" />
+                </div>
+                <p class="nameDos">Bad Bunny - Temón...</p>
+              </div>
+            </div>
+            <div class="songIcons">
+              <img src="icons/like.png" />
+              <img src="icons/dots.png" />
+            </div>
+          </div>
+          <div class="song">
+            <img src="img/oasis.png" />
+            <div class="likedSongName">
+              <p>Oasis</p>
+              <div class="wrappper">
+                <div class="downloadSong">
+                  <img src="icons/downArrow.png" />
+                </div>
+                <p class="nameDos">Bad Bunny - Oasis</p>
+              </div>
+            </div>
+            <div class="songIcons">
+              <img src="icons/like.png" />
+              <img src="icons/dots.png" />
+            </div>
+          </div>
+          <div class="song">
+            <img src="img/readytodie.jpeg" />
+            <div class="likedSongName">
+              <p>The What</p>
+              <div class="wrappper">
+                <div class="downloadSong">
+                  <img src="icons/downArrow.png" />
+                </div>
+                <p class="nameDos">Notorious Big - The W...</p>
+              </div>
+            </div>
+            <div class="songIcons">
+              <img src="icons/like.png" />
+              <img src="icons/dots.png" />
+            </div>
+          </div>
+        </div>
+        <!-- SONG PLAYING AT THE MOMENT -->
+        <nav class="bottomMenu">
+          <div class="reproduccion">
+            <img src="img/album.jpeg" class="albumPhoto" />
+            <div class="songName">
+              <p>The What - <span class="band">The Notorious BIG</span></p>
+              <p class="airplay">NICOLÁS'S MACBOOK PRO</p>
+            </div>
+            <img src="icons/airplay.png" />
+            <img src="icons/pause.png" />
+          </div>
+          <!------ ACTUAL MENU APP------->
+          <div class="realMenu">
+            <div class="menuu">
+              <img src="icons/home.png" />
+              <p>Home</p>
+            </div>
+            <div class="menuu">
+              <img src="icons/seaarch.png" />
+              <p>Search</p>
+            </div>
+            <div class="menuu">
+              <img src="icons/playpause.png" />
+              <p>Your Library</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
